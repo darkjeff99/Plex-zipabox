@@ -1,0 +1,70 @@
+[
+    {
+        "id": "sync_zipabox",
+        "type": "bool",
+        "label": "Actions Zipabox",
+        "default": "false"
+    },
+    {
+        "id": "zipabox_serial",
+        "type": "text",
+        "label": "Zipabox serial :",
+        "default": "",
+        "option": "hidden"
+    },
+    {
+        "id": "zipabox_api_key",
+        "type": "text",
+        "label": "Zipabox api_key :",
+        "default": "",
+        "option": "hidden"
+    },
+    {
+        "id": "zipabox_ep",
+        "type": "text",
+        "label": "Zipabox ep :",
+        "default": ""
+    },
+    {
+        "id": "zipabox_playing",
+        "type": "text",
+        "label": "Zipabox valeur PLAY :",
+        "default": "3"
+    },
+    {
+        "id": "zipabox_paused",
+        "type": "text",
+        "label": "Zipabox valeur PAUSE :",
+        "default": "8",
+    },
+    {
+        "id": "zipabox_stopped",
+        "type": "text",
+        "label": "Zipabox valeur STOP :",
+        "default": "6",
+    },
+    {
+        "id": "msg_client",
+        "type": "bool",
+        "label": "Messages Client Plex :",
+        "default": "false"
+    },
+    {
+        "id": "ip_client",
+        "type": "text",
+        "label": "Ip client plex :",
+        "default": ""
+    },
+    {
+        "id": "zipabox_msg_playing",
+        "type": "text",
+        "label": "Zipabox message PLAY :",
+        "default": "Extinction lumiere"
+    },
+    {
+        "id": "zipabox_msg_paused",
+        "type": "text",
+        "label": "Zipabox message PAUSE :",
+        "default": "Lumiere 30%"
+    }
+]
